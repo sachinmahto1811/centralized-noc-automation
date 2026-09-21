@@ -1,0 +1,6 @@
+workflows:
+  - name: sample_outage_summary
+    enabled: true
+    script: workflows/sample_outage_summary.py
+    input: data/sample_alarm_events.csv
+    output: outputs/sample_outage_summary.csv
